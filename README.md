@@ -93,8 +93,9 @@ python pca_visualization.py --n_components 3 --sample_size 10000
 The project generates two key plots:
 
 - Scree Plot: This plot displays the cumulative explained variance. It helps you see how much information is retained as you increase the number of principal components.2D/3D.
-
+![Scree Plot](Scree_plot.png)
 - Scatter Plot: This is the final visualization of the transformed data. Each point represents a handwritten digit, and the colors correspond to their original class labels. This plot reveals if the digits form distinct, separable clusters in the lower-dimensional space.
+![Scatter Plot](Scatter_plot.png)
 
 ## Contributors
 
